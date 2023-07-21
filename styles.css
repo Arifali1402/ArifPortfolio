@@ -190,3 +190,69 @@ footer .footer-rights {
     color: gray;
     padding: 12px 0;
 }
+
+
+@media screen and (max-width: 1600px) {
+    body {
+        min-width: fit-content;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        left: 45px;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 220vh;
+    }
+
+    .secondSection .vertical {
+        height: unset;
+    }
+
+    .secondSection .box {
+        width: 50vw;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+    }
+
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightSection div {
+        width: 60%;
+    }
+
+    .rightSection {
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .rightSection .circle img {
+        width: 45vw;
+        margin-bottom: 73px;
+    } */
+
+    .image-top {
+        top: 120px;
+    }
+}
